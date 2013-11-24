@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Menu - Dawg Pizza</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="elliowk">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" href="img/pizza-icon.png">
+	</head>
+	<body>
+		<header>
+			<!--#include virtual="inc/header.html" -->
+		</header>
+
+		<div class="global-container">
+			<main>
+				<section id="jobs-section">
+					<h1>Jobs: Now Hiring!</h1>
+					<h2>Open position - Kitchen Staff</h2>
+					<p>Dawg Pizza is looking for new Kitchen Staff! Duties will include but are not limited to preparing dough, baking pizzas, handling the cash register, and cleaning the necessary facilities. Must have excellent customer service skills, particularly in the area of patience and attitude. Skills in the areas of cooking, sanitation, food handling, and business operations are a plus. Hours and pay negotiable.</p>
+
+					<h2>Open position - Delivery Driver</h2>
+					<p>We need Delivery Drivers! Do you have a driver's license, a good record, and the ability to handle money and provide excellent customer service? Then we're looking for you. Hours and pay negotiable.</p>
+				</section>
+			</main>
+		</div>
+
+		<footer>
+			<!--#include virtual="inc/footer.html" -->
+		</footer>
+	</body>
+</html>

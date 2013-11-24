@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Menu - Dawg Pizza</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="elliowk">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" href="img/pizza-icon.png">
+	</head>
+	<body>
+		<header>
+			<!--#include virtual="inc/header.html" -->
+		</header>
+
+		<div class="global-container">
+			<main>
+				<section id="menu-section">
+					<div class="menu-title-col">
+						<h1>Dawg Pizza Menu</h1>
+					</div>
+					<div id="menu-picture-col">
+						<img src="img/pizza-order.jpg" alt="pizza-order">
+					</div>
+					<h2>Pizzas:</h2>
+					<p>All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes:</p>
+					<ul>
+						<li class="li-small">Small</li>
+	       				<li class="li-medium">Medium</li>
+	        			<li class="li-large">Large</li>
+					</ul>
+					<ul>
+						<li class="li-small">(12")</li>
+						<li class="li-medium">(14")</li>
+						<li class="li-large">(16")</li>
+					</ul>
+        			<p id="pizza-custom">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</p>
+					
+					<div id="pizza-container">
+						<div class="menu-col">
+							<h3>Meat Pies:</h3>
+							<div id="template-meat-pie" class="js-template">
+								<h4></h4>
+								<div class="menu-desc"></div>
+							</div>
+						</div>
+
+						<div class="menu-col">
+							<h3>Vegetarian Pies:</h3>
+							<div id="template-veg-pie" class="js-template">
+								<h4></h4>
+								<div class="menu-desc"></div>
+							</div>
+						</div>
+					</div>
+					
+					<h2>Drinks:</h2>
+					<div>
+						<div id="template-drinks" class="js-template">
+							<h4></h4>
+						</div>
+					</div>
+
+					<h2>Dessert:</h2>
+					<div>
+						<div id="template-desserts" class="js-template">
+							<h4></h4>
+						</div>
+					</div>
+					<h4>Chocolate Gelato <span>($8)</span></h4>
+					<h4>Lemon Sorbet <span>($7)</span></h4>
+					<h4>Ricotta Cheese Cake <span>($10)</span></h4>
+				</section>
+			</main>
+		</div>
+
+		<footer>
+			<!--#include virtual="inc/footer.html" -->
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://www.dawgpizza.com/orders/menu.js"></script>
+		<script type="text/javascript" src="js/myDawgPizza.js"></script>
+	</body>
+</html>
