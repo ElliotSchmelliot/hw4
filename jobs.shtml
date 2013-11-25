@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Menu - Dawg Pizza</title>
+		<title>Jobs - Dawg Pizza</title>
 		<meta charset="UTF-8">
 		<meta name="author" content="elliowk">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -14,7 +14,7 @@
 
 		<div class="global-container">
 			<main>
-				<section id="jobs-section">
+				<section id="jobs-section" class="trans-sec">
 					<h1>Jobs: Now Hiring!</h1>
 					<h2>Open position - Kitchen Staff</h2>
 					<p>Dawg Pizza is looking for new Kitchen Staff! Duties will include but are not limited to preparing dough, baking pizzas, handling the cash register, and cleaning the necessary facilities. Must have excellent customer service skills, particularly in the area of patience and attitude. Skills in the areas of cooking, sanitation, food handling, and business operations are a plus. Hours and pay negotiable.</p>

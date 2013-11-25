@@ -14,35 +14,37 @@
 
 		<div class="global-container">
 			<main>
-				<div class="menu-col">
-					<section class="home-section">
-						<h2>Delicious pizza 6 days a week</h2>
+				<section id="home-section" class="trans-sec">
+					<div id="main-col-left">
+						<h2>What</h2>
+						<div class="home-deets">
+							Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!
+						</div>
+
+						<h2>When</h2>
 						<div class="home-deets">
 							<p>10am to 11pm </p>
 							<p>Monday - Saturday</p>
 						</div>
-						<h2>Stop in or get delivery</h2>
+
+						<h2>Where</h2>
 						<div class="home-deets">
 							<p><a href="https://maps.google.com/maps?q=google+maps+4306+University+Way+NE,+Seattle,+WA+98105&hl=en&sll=47.660037,-122.312847&sspn=0.010912,0.012038&t=h&hnear=4306+University+Way+NE,+Seattle,+Washington+98105&z=16">4306 University Way NE, Seattle, WA 98105</a></p>
-							<p>206-555-1212</p>
 						</div>
-					</section>
-				</div>
 
-				<div class="menu-col">
-					<section class="home-section">
-						<h2>Dawg Pizza: Best in the Northwest!</h2>
+						<h2>How</h2>
 						<div class="home-deets">
-							<img src="img/pizza1.jpg" alt="pizza">
-							<p>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</p>
+							206-555-1212
+							<p>OR</p>
+							<a href="order.shtml">Order Online</a>
 						</div>
-					</section>
-				</div>
+					</div>
 
-				<section class="home-section">
-					<h2>Learn to toss a pizza like a pro!</h2>
-					<div>
-						<iframe width="420" height="315" src="//www.youtube.com/embed/HWL__9yDu8I" frameborder="0" allowfullscreen></iframe>
+					<div id="main-col-right">
+						<h2>Best in the Northwest!</h2>
+						<div class="home-deets">
+							<img class="img-border" src="img/pizza1.jpg" alt="pizza">
+						</div>
 					</div>
 				</section>
 			</main>

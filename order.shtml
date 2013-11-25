@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Order - Dawg Pizza</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="elliowk">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" href="img/pizza-icon.png">
+	</head>
+	<body>
+		<header>
+			<!--#include virtual="inc/header.html" -->
+		</header>
+		
+		<div class="global-container">
+			<main>
+				<section id="order-section" class="trans-sec">
+					<h1>Online Order</h1>
+					<p id="delivery-warning">Delivery is only available within the Seattle city limits and only from noon to 11:00pm. We accept cash or credit cards.</p>
+
+					<p id="warning-fields" class="js-template">Oops! Please fill out all of the input fields to ensure correct order processing.</p>
+					<p id="warning-cost" class="js-template">Oops! We enforce a minimum order of at least $20. Please add a few more things to your cart.</p>
+
+					<form class="cart-form" action="http://dawgpizza.com/orders/" method="POST">
+						<input type="hidden" name="cart">
+
+						<label for="name">Name</label>
+						<input type="text" name="name">
+
+						<label for="address">Address</label>
+						<input type="text" name="address">
+
+						<label for="zip">Zip</label>
+						<input type="text" name="zip">
+
+						<label for="phone">Phone</label>
+						<input type="text" name="phone">
+					</form>
+
+					<div id="order-col-left">
+						<h2>Pizzas:</h2>		
+						<div id="pizza-container">
+							<div id="meat-container">
+								<h3>Meat Pies:</h3>
+							</div>
+
+							<div id="veg-container">
+								<h3>Vegetarian Pies:</h3>
+							</div>
+
+							<div id="template-pizza" class="js-template">
+								<h4></h4>
+								<div class="menu-desc"></div>
+								<button id="pizza-small" class="add-to-cart" type="button" data-size="small"></button>
+								<button id="pizza-medium" class="add-to-cart" type="button" data-size="medium"></button>
+								<button id="pizza-large" class="add-to-cart" type="button" data-size="large"></button>
+							</div>
+						</div>
+						
+						<h2>Drinks:</h2>
+						<div>
+							<div id="template-drinks" class="js-template">
+								<h4></h4>
+								<button class="add-to-cart" type="button"></button>
+							</div>
+						</div>
+
+						<h2>Dessert:</h2>
+						<div>
+							<div id="template-desserts" class="js-template">
+								<h4></h4>
+								<button class="add-to-cart" type="button"></button>
+							</div>
+						</div>
+					</div>
+
+					<div id="order-col-right">
+						<h2>Cart:</h2>
+						<div class="load-last-order">
+							<img src="img/load-cart.png" alt="load cart">
+							<span>Load last order...</span>
+						</div>
+						<ul class="cart-container"></ul>
+
+						<p id="cart-sub-total"></p>
+						<p id="cart-tax"></p>
+						<p id="cart-total"></p>
+						<button class="place-order" type="button">Order!</button>
+
+						<li id="template-cart-item" class="js-template"></li>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<footer>
+			<!--#include virtual="inc/footer.html" -->
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://www.dawgpizza.com/orders/menu.js"></script>
+		<script type="text/javascript" src="js/order.js"></script>
+	</body>
+</html>

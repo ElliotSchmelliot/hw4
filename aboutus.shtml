@@ -14,12 +14,12 @@
 		
 		<div class="global-container">
 			<main>
-				<section id="aboutus-section">
+				<section id="aboutus-section" class="trans-sec">
 					<h1>About Dawg Pizza</h1>
 					<h2>Our Story:</h2>
 					<p>Dawg Pizza was started in 2013 with one simple goal: to get the students of the University of Washington to eat our pizza for every single meal. Well, maybe not every single meal, but most of them anyway. Cold pizza is really good for breakfast. And who can deny that pizza for lunch is really tasty? And when you've had a long day of classes and you're hungry, why not order a pizza for dinner too? And what should you do when you get hungry during that late-night study session? Order a pizza! That's where we come in.</p>
 					
-					<img src="img/pizza-oven.jpg" alt="pizza-oven">
+					<img class="img-border" src="img/pizza-oven.jpg" alt="pizza-oven">
 					
 					<p>We make the traditional pizzas, but we also mix things up with non-traditional ingredients. Tomato sauce is great, but how about plum, peanut, soy, or teriyaki sauce? You can get pepperoni anywhere, so how about some roasted duck or venison instead? Mushrooms are nice, but what about stir-fried cabbage and fried egg? We do it all.</p>
 

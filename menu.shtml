@@ -14,15 +14,14 @@
 
 		<div class="global-container">
 			<main>
-				<section id="menu-section">
-					<div class="menu-title-col">
-						<h1>Dawg Pizza Menu</h1>
-					</div>
-					<div id="menu-picture-col">
-						<img src="img/pizza-order.jpg" alt="pizza-order">
-					</div>
+				<section id="menu-section" class="trans-sec">
+					<div id="order-now">NEW! <a href="order.shtml">Order Online!</a></div>
+					<h1>Dawg Pizza Menu</h1>
 					<h2>Pizzas:</h2>
-					<p>All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes:</p>
+					<img class="img-border" src="img/pizza-order.jpg" alt="pizza-order">
+					<p>All our pizzas are made with hand-thrown thin crust, baked in real wood ovens.</p>
+
+					<p>Choose from one of these sizes:</p>
 					<ul>
 						<li class="li-small">Small</li>
 	       				<li class="li-medium">Medium</li>
@@ -66,9 +65,6 @@
 							<h4></h4>
 						</div>
 					</div>
-					<h4>Chocolate Gelato <span>($8)</span></h4>
-					<h4>Lemon Sorbet <span>($7)</span></h4>
-					<h4>Ricotta Cheese Cake <span>($10)</span></h4>
 				</section>
 			</main>
 		</div>
