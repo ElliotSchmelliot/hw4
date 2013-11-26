@@ -245,7 +245,7 @@ function renderCart(cart, container) {
 
 		//Delete item from cart
 		$(".delete-me").click(function() {
-		    var idxToRemove = this.getAttribute('data-index');
+		    var idxToRemove = +(this.getAttribute('data-index'));
 		    cart.items.splice(idxToRemove, 1);
 	        renderCart(cart, $('.cart-container'));
 		});
