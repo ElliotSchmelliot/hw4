@@ -175,14 +175,6 @@ $(function() {
 		cart.items = JSON.parse(saved).items;
         renderCart(cart, $('.cart-container'));
 	});
-
-	//Delete item from cart
-	$(".delete-me").click(function() {
-		alert("hey"); //WHY DOESNT THIS WORK??
-	    var idxToRemove = this.getAttribute('data-index');
-	    cart.items.splice(idxToRemove, 1);
-        renderCart(cart, $('.cart-container'));
-	});
 });
 
 function appendPizza(thisTemp, container, instance) {
@@ -250,6 +242,13 @@ function renderCart(cart, container) {
 
         instance.removeClass("js-template");
 		container.append(instance);
+
+		//Delete item from cart
+		$(".delete-me").click(function() {
+		    var idxToRemove = this.getAttribute('data-index');
+		    cart.items.splice(idxToRemove, 1);
+	        renderCart(cart, $('.cart-container'));
+		});
     } //for each cart item
 
 
